@@ -1,0 +1,11 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    padding: 0 100px;
+}
