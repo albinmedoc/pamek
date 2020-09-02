@@ -46,7 +46,7 @@
     }
 
     nav > ul > li > a {
-		margin: 0 25px;
+		margin: 0 0 0 25px;
         text-decoration: none;
         font-size: 30px;
         color: #E3E3E3;
@@ -80,7 +80,7 @@
             display: block;
             position: absolute;
             top: -100px;
-            right: 32px;
+            right: 100px;
         }
 
         nav > ul {
@@ -129,7 +129,7 @@
                 <a
                     rel="prefetch"
                     aria-current={segment === 'om-oss' ? 'page' : undefined}
-                    href="om-oss">
+                    href="/#om-oss">
                     Om oss
                 </a>
             </li>
@@ -137,7 +137,7 @@
                 <a
                     rel="prefetch"
                     aria-current={segment === 'vara-tjanster' ? 'page' : undefined}
-                    href="vara-tjanster">
+                    href="/#vara-tjanster">
                     Våra tjänster
                 </a>
             </li>
