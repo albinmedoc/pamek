@@ -104,6 +104,12 @@
             font-size: 35px;
         }
     }
+    /* Move logo because padding changes on container class. */
+    @media (max-width: 650px) {
+        nav > :global(button) {
+            right: 20px;
+        }
+}
 </style>
 
 <header class="container">
