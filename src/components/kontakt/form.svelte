@@ -9,7 +9,7 @@
 
 <style>
     div :global(form) {
-        width: auto;
+        width: calc(100% - 70px);
         padding: 25px 35px;
         background-color: #e3e3e3;
         max-width: 300px;
