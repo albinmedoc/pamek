@@ -109,7 +109,35 @@
         nav > :global(button) {
             right: 20px;
         }
-}
+    }
+
+    @media (max-width: 430px) {
+        .logo {
+            width: 250px;
+        }
+    }
+
+    @media (max-width: 350px) {
+        .logo {
+            width: 200px;
+        }
+
+        header {
+            height: 100px;
+        }
+
+        nav {
+            top: 100px;
+        }
+
+        nav.is-active {
+            height: calc(100vh - 100px);
+		}
+
+        nav > :global(button) {
+            top: -75px;
+        }
+    }
 </style>
 
 <header class="container">
