@@ -83,6 +83,26 @@
 		#services_container {
 			grid-template-columns: 1fr;
 		}
+    }
+    
+    @media (max-width: 500px) {
+		#hero > div > h2 {
+        font-size: 35px;
+        }
+
+        #hero > div > h3 {
+            font-size: 20px;
+        }
+    }
+    
+    @media (max-width: 400px) {
+		#hero > div > h2 {
+        font-size: 30px;
+        }
+
+        #hero > div > h3 {
+            font-size: 15px;
+        }
 	}
 
     .service > h4 {
