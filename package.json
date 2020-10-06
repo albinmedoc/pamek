@@ -23,6 +23,7 @@
     "compression": "^1.7.1",
     "dotenv": "^8.2.0",
     "express": "next",
+    "nodemailer": "^6.4.13",
     "sirv": "^1.0.0",
     "svelte-material-icons": "^1.0.3"
   },
@@ -42,6 +43,7 @@
     "rollup-plugin-terser": "^6.1.0",
     "sapper": "^0.28.0",
     "svelte": "^3.17.3",
+    "svelte-notifications": "^0.9.9",
     "svelte-responsive-form": "^1.0.2"
   }
 }

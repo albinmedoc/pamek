@@ -5,6 +5,48 @@
         InputContainer,
         autoresize,
     } from 'svelte-responsive-form';
+
+    import { getNotificationsContext } from 'svelte-notifications';
+    const { addNotification } = getNotificationsContext();
+
+    let name,
+        email,
+        tel,
+        subject,
+        message = undefined;
+
+    function handleSubmit() {
+        fetch('/kontakt/send', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                name,
+                email,
+                tel,
+                subject,
+                message,
+            }),
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                addNotification({
+                    text: 'Tack för ditt meddelande!',
+                    position: 'bottom-right',
+                    type: 'success',
+                });
+                // Reset form
+                name = email = tel = subject = message = undefined;
+            })
+            .catch((error) => {
+                addNotification({
+                    text: 'Någonting gick fel, vänligen försök igen.',
+                    position: 'bottom-right',
+                    type: 'danger',
+                });
+            });
+    }
 </script>
 
 <style>
@@ -17,35 +59,47 @@
 </style>
 
 <div>
-    <Form>
+    <Form on:submit={handleSubmit}>
         <FormRow>
             <InputContainer label="Ditt namn">
-                <input type="text" placeholder=" " required />
+                <input bind:value={name} type="text" placeholder=" " required />
             </InputContainer>
         </FormRow>
         <FormRow>
             <InputContainer label="Din e-post">
-                <input type="email" placeholder=" " required />
+                <input
+                    bind:value={email}
+                    type="email"
+                    placeholder=" "
+                    required />
             </InputContainer>
         </FormRow>
         <FormRow>
             <InputContainer label="Ditt telefonnummer">
-                <input type="tel" placeholder=" " required />
+                <input bind:value={tel} type="tel" placeholder=" " required />
             </InputContainer>
         </FormRow>
         <FormRow>
             <InputContainer label="Ämne">
-                <input type="text" placeholder=" " required />
+                <input
+                    bind:value={subject}
+                    type="text"
+                    placeholder=" "
+                    required />
             </InputContainer>
         </FormRow>
         <FormRow>
             <InputContainer label="Meddelande">
-                <textarea use:autoresize placeholder=" " required />
+                <textarea
+                    bind:value={message}
+                    use:autoresize
+                    placeholder=" "
+                    required />
             </InputContainer>
         </FormRow>
         <FormRow>
             <InputContainer>
-                <input type="submit" value="Skicka">
+                <input type="submit" value="Skicka" />
             </InputContainer>
         </FormRow>
     </Form>
