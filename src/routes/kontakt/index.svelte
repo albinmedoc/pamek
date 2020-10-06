@@ -88,35 +88,35 @@
         <div>
             <section class="person">
                 <div>
-                    <img alt="Patrik Takkula" src="/images/mikael_bjorklund.png">
+                    <!-- <img alt="Patrik Takkula" src="/images/mikael_bjorklund.png"> -->
                     <span>
                         <p><strong>Patrik Takkula</strong></p>
                         <p><a href="tel:+46703774603">+46 703 77 46 03</a></p>
                         <p><a href="mailto:patrik@pamek.nu">patrik@pamek.nu</a></p>
                     </span>
                 </div>
-                <p>Bmlakmkslmkldm lskamkl mdaklmdlk malkdm la
+                <!-- <p>Bmlakmkslmkldm lskamkl mdaklmdlk malkdm la
                     D ksamkd msalmd lkamskldm las
                     M kdsamkdm alms kamdlkm akldmslam dlksa
                     Km dmsakldm aklmdkl amdlksm alkmdlkad</p>
                     
-                    <p>D kmsamk dmksa dkmaskd masklmd lakmdsam</p>
+                    <p>D kmsamk dmksa dkmaskd masklmd lakmdsam</p> -->
             </section>
             <section class="person">
                 <div>
-                    <img alt="Filip Takkula" src="/images/mikael_bjorklund.png">
+                    <!-- <img alt="Filip Takkula" src="/images/mikael_bjorklund.png"> -->
                     <span>
                         <p><strong>Filip Takkula</strong></p>
                         <p><a href="tel:+46703774603">+46 703 77 46 03</a></p>
                         <p><a href="mailto:filip@pamek.nu">filip@pamek.nu</a></p>
                     </span>
                 </div>
-                <p>Bmlakmkslmkldm lskamkl mdaklmdlk malkdm la
+                <!-- <p>Bmlakmkslmkldm lskamkl mdaklmdlk malkdm la
                     D ksamkd msalmd lkamskldm las
                     M kdsamkdm alms kamdlkm akldmslam dlksa
                     Km dmsakldm aklmdkl amdlksm alkmdlkad</p>
                     
-                    <p>D kmsamk dmksa dkmaskd masklmd lakmdsam</p>
+                    <p>D kmsamk dmksa dkmaskd masklmd lakmdsam</p> -->
             </section>
         </div>
     </div>
