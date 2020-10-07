@@ -107,7 +107,7 @@
                     <!-- <img alt="Filip Takkula" src="/images/mikael_bjorklund.png"> -->
                     <span>
                         <p><strong>Filip Takkula</strong></p>
-                        <p><a href="tel:+46703774603">+46 703 77 46 03</a></p>
+                        <p><a href="tel:+46760472835">+46 760 47 28 35</a></p>
                         <p><a href="mailto:filip@pamek.nu">filip@pamek.nu</a></p>
                     </span>
                 </div>
