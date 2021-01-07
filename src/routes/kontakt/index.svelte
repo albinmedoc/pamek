@@ -39,11 +39,6 @@
         justify-content: space-around;
     }
 
-    .person > div > img {
-        width: 200px;
-        border-radius: 30px;
-    }
-
     @media (max-width: 930px) {
         .container {
             grid-template-columns: 1fr;

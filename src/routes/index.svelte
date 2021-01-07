@@ -1,12 +1,12 @@
 <script>
-    import ShieldHalfFull from 'svelte-material-icons/ShieldHalfFull.svelte';
+    import ShieldHalfFull from "svelte-material-icons/ShieldHalfFull.svelte";
 </script>
 
 <style>
     /* Hero section  */
     #hero {
         background-size: cover;
-        background-image: url('/images/bathroom.jpg');
+        background-image: url("/images/bathroom.jpg");
         width: 100vw;
         height: 56vw;
     }
@@ -35,18 +35,16 @@
     }
 
     /* About & Experience section  */
-    #om-oss,
-    #experience {
+    #om-oss {
         margin: 40px 0;
     }
-    #om-oss > h3,
-    #experience > h3 {
+
+    #om-oss > h3 {
         font-size: 30px;
         color: #333333;
     }
 
-    #om-oss > p,
-    #experience > p {
+    #om-oss > p {
         font-size: 20px;
         color: #333333;
     }
@@ -64,46 +62,46 @@
     }
 
     #services_container {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
     }
 
     .service {
         color: #333333;
-	}
-	
-	@media (max-width: 1150px) {
-		#services_container {
-			grid-template-columns: 1fr 1fr;
-		}
-	}
-
-	@media (max-width: 800px) {
-		#services_container {
-			grid-template-columns: 1fr;
-		}
     }
-    
+
+    @media (max-width: 1150px) {
+        #services_container {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media (max-width: 800px) {
+        #services_container {
+            grid-template-columns: 1fr;
+        }
+    }
+
     @media (max-width: 500px) {
-		#hero > div > h2 {
-        font-size: 35px;
+        #hero > div > h2 {
+            font-size: 35px;
         }
 
         #hero > div > h3 {
             font-size: 20px;
         }
     }
-    
+
     @media (max-width: 400px) {
-		#hero > div > h2 {
-        font-size: 30px;
+        #hero > div > h2 {
+            font-size: 30px;
         }
 
         #hero > div > h3 {
             font-size: 15px;
         }
-	}
+    }
 
     .service > h4 {
         font-size: 24px;
@@ -124,11 +122,17 @@
 
 <section id="om-oss" class="container">
     <h3>Om Pamek VVS</h3>
-    <p>Pamek AB är det lilla vvs företaget men med lång erfarenhet av vatten värme och sanitet. Företaget utgår från Staffanstorp men arbetsområdet täcker hela Skåne.</p>
-    <p>Pamek hjälper er med allt från de små reparationerna till dem större ombyggnaderna. Vi har samarbetspartners som hjälper till med el, bygg, kakel och klinkers och mycket mer.</p>
     <p>
-        Pamek AB startade 2018.
+        Pamek AB är det lilla vvs företaget men med lång erfarenhet av vatten
+        värme och sanitet. Företaget utgår från Staffanstorp men arbetsområdet
+        täcker hela Skåne.
     </p>
+    <p>
+        Pamek hjälper er med allt från de små reparationerna till dem större
+        ombyggnaderna. Vi har samarbetspartners som hjälper till med el, bygg,
+        kakel och klinkers och mycket mer.
+    </p>
+    <p>Pamek AB startade 2018.</p>
 </section>
 
 <section id="vara-tjanster" class="container">
@@ -139,7 +143,8 @@
                 <ShieldHalfFull />Service
             </h4>
             <p>
-                Vi utför service och reparationsarbete både till privatpersoner, fastighetsbolag och företag. 
+                Vi utför service och reparationsarbete både till privatpersoner,
+                fastighetsbolag och företag.
             </p>
         </section>
         <section class="service">
@@ -147,7 +152,7 @@
                 <ShieldHalfFull />Entreprenader
             </h4>
             <p>
-                Vi utför stambyte i flerbostadshus  samt mindre ny produktioner. 
+                Vi utför stambyte i flerbostadshus samt mindre ny produktioner.
             </p>
         </section>
         <section class="service">
@@ -155,7 +160,8 @@
                 <ShieldHalfFull />Pannor/Värmepumpar
             </h4>
             <p>
-                Vi byter din gamla värmekälla. Är du nyfiken på en kostnadsfri offert hör av dig till oss. 
+                Vi byter din gamla värmekälla. Är du nyfiken på en kostnadsfri
+                offert hör av dig till oss.
             </p>
         </section>
         <section class="service">
@@ -163,7 +169,9 @@
                 <ShieldHalfFull />Badrum
             </h4>
             <p>
-                Vi tar hand om din badrums renovering från start till mål. Med våra samarbetspartners kan vi se till så du får ett nyckel färdigt badrum med bara kontakt med ett företag.
+                Vi tar hand om din badrums renovering från start till mål. Med
+                våra samarbetspartners kan vi se till så du får ett nyckel
+                färdigt badrum med bara kontakt med ett företag.
             </p>
         </section>
     </div>
