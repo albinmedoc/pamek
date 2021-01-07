@@ -4,7 +4,7 @@
         FormRow,
         InputContainer,
         autoresize,
-    } from 'svelte-responsive-form';
+    } from '@albinmedoc/svelte-form';
 
     import { getNotificationsContext } from 'svelte-notifications';
     const { addNotification } = getNotificationsContext();
