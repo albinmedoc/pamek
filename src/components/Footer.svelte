@@ -22,7 +22,7 @@
         src="/images/logo.svg"
         alt="The Coffee Lounge"
         title="Pamek VVS" />
-    <p>Traversvägen 1 | 245 34 Staffanstorp</p>
+    <p>Trelleborgsvägen 7 | 245 91 Staffanstorp</p>
     <p><a href="tel:+46703774603">+46 703 77 46 03</a></p>
     <p><a href="mailto:info@pamek.nu">info@pamek.nu</a></p>
 </footer>

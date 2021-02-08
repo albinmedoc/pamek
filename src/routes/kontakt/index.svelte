@@ -70,7 +70,7 @@
         <strong>Information</strong>
         <ul>
             <li><p>PAMEK AB</p></li>
-            <li><p>Traversvägen 1 | 245 34 Staffanstorp</p></li>
+            <li><p>Trelleborgsvägen 7 | 245 91 Staffanstorp</p></li>
             <li><p><a href="tel:+46703774603">+46 703 77 46 03</a></p></li>
             <li><p><a href="mailto:info@pamek.nu">info@pamek.nu</a></p></li>
         </ul>
