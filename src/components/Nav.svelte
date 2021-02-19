@@ -1,15 +1,81 @@
 <script>
     import HamburgerButton from './HamburgerButton.svelte';
-	export let segment;
-	
+    export let segment;
+
     let active = false;
 
-    function hide(){
+    function hide() {
         active = false;
     }
-    
-    $:  hide(segment);
+
+    $: hide(segment);
 </script>
+
+<header class="container">
+    <a href=".">
+        <img
+            class="logo"
+            src="/images/logo.svg"
+            alt="The Coffee Lounge"
+            title="Startsida"
+        />
+    </a>
+    <nav class={active ? 'is-active' : ''}>
+        <HamburgerButton bind:active />
+        <ul>
+            <li>
+                <a
+                    rel="prefetch"
+                    aria-current={segment === undefined ? 'page' : undefined}
+                    href="/"
+                    on:click={hide}
+                >
+                    Hem
+                </a>
+            </li>
+            <li>
+                <a
+                    rel="prefetch"
+                    aria-current={segment === 'om-oss' ? 'page' : undefined}
+                    href="/#om-oss"
+                    on:click={hide}
+                >
+                    Om oss
+                </a>
+            </li>
+            <li>
+                <a
+                    rel="prefetch"
+                    aria-current={segment === 'vara-tjanster'
+                        ? 'page'
+                        : undefined}
+                    href="/#vara-tjanster"
+                    on:click={hide}
+                >
+                    Våra tjänster
+                </a>
+            </li>
+            <li>
+                <a
+                    aria-current={segment === 'kontakt' ? 'page' : undefined}
+                    href="kontakt"
+                    on:click={hide}
+                >
+                    Kontakt
+                </a>
+            </li>
+            <li>
+                <a
+                    aria-current={segment === 'partners' ? 'page' : undefined}
+                    href="partners"
+                    on:click={hide}
+                >
+                    Samarbetspartners
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
 
 <style>
     header {
@@ -45,11 +111,19 @@
         text-align: center;
     }
 
+    nav > ul > li {
+        display: none;
+    }
+
+    nav > ul > li:nth-child(-n + 4) {
+        display: block;
+    }
+
     nav > ul > li > a {
-		margin: 0 0 0 25px;
+        margin: 0 0 0 25px;
         text-decoration: none;
         font-size: 30px;
-        color: #E3E3E3;
+        color: #e3e3e3;
     }
 
     [aria-current] {
@@ -61,9 +135,9 @@
         position: absolute;
         content: '';
         width: 100%;
-		height: 2px;
-		border-radius: 1px;
-        background-color: #E3E3E3;
+        height: 2px;
+        border-radius: 1px;
+        background-color: #e3e3e3;
         display: block;
         bottom: -1px;
     }
@@ -85,20 +159,21 @@
 
         nav > ul {
             display: none;
-		}
-		
+        }
+
         nav.is-active {
             height: calc(100vh - 150px);
-		}
-		
+        }
+
         nav.is-active > ul {
             display: block !important;
             background-color: #333333;
-		}
-		
-		nav > ul > li {
-			padding: 15px 0;
-		}
+        }
+
+        nav > ul > li {
+            padding: 15px 0;
+            display: block;
+        }
 
         nav > ul > li > a {
             font-size: 35px;
@@ -132,56 +207,10 @@
 
         nav.is-active {
             height: calc(100vh - 100px);
-		}
+        }
 
         nav > :global(button) {
             top: -75px;
         }
     }
 </style>
-
-<header class="container">
-    <a href=".">
-        <img
-            class="logo"
-            src="/images/logo.svg"
-            alt="The Coffee Lounge"
-            title="Startsida" />
-    </a>
-    <nav class="{active ? 'is-active' : ''}">
-		<HamburgerButton bind:active={active} />
-        <ul>
-            <li>
-                <a
-                    rel="prefetch"
-                    aria-current={segment === undefined ? 'page' : undefined}
-                    href="/">
-                    Hem
-                </a>
-            </li>
-            <li>
-                <a
-                    rel="prefetch"
-                    aria-current={segment === 'om-oss' ? 'page' : undefined}
-                    href="/#om-oss">
-                    Om oss
-                </a>
-            </li>
-            <li>
-                <a
-                    rel="prefetch"
-                    aria-current={segment === 'vara-tjanster' ? 'page' : undefined}
-                    href="/#vara-tjanster">
-                    Våra tjänster
-                </a>
-            </li>
-            <li>
-                <a
-                    aria-current={segment === 'kontakt' ? 'page' : undefined}
-                    href="kontakt">
-                    Kontakt
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
