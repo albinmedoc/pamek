@@ -44,7 +44,7 @@
         color: #333333;
     }
 
-    #om-oss > p {
+    #om-oss > p, #om-oss > p > a {
         font-size: 20px;
         color: #333333;
     }
@@ -132,7 +132,7 @@
         ombyggnaderna. Vi har samarbetspartners som hjälper till med el, bygg,
         kakel och klinkers och mycket mer.
     </p>
-    <p>Pamek AB startade 2018.</p>
+    <p>Pamek AB startade 2018 och under åren har vi skaffat flera <a href="partners">samarbetspartners</a>.</p>
 </section>
 
 <section id="vara-tjanster" class="container">
