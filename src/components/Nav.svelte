@@ -16,7 +16,7 @@
         <img
             class="logo"
             src="/images/logo.svg"
-            alt="The Coffee Lounge"
+            alt="Pamek AB"
             title="Startsida"
         />
     </a>
