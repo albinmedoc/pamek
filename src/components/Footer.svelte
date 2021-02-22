@@ -1,6 +1,7 @@
 <style>
     footer {
-        background-color: #333333;
+        background-image: url("/images/header_bg.svg");
+        background-size: 100% 100%;
         text-align: center;
         padding: 20px 10px;
     }
@@ -11,7 +12,7 @@
     }
 
     p, p > a {
-        color: #fff;
+        color: #000;
         text-decoration: none;
     }
 </style>
@@ -19,7 +20,7 @@
 <footer>
     <img
         class="logo"
-        src="/images/logo.svg"
+        src="/images/logo_text.svg"
         alt="The Coffee Lounge"
         title="Pamek VVS" />
     <p>Trelleborgsvägen 7 | 245 91 Staffanstorp</p>

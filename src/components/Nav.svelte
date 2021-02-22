@@ -15,7 +15,7 @@
     <a href=".">
         <img
             class="logo"
-            src="/images/logo.svg"
+            src="/images/logo_text.svg"
             alt="Pamek AB"
             title="Startsida"
         />
@@ -79,11 +79,13 @@
 
 <style>
     header {
-        background-color: #333333;
+        background-image: url("/images/header_bg.svg");
+        background-size: 100% 100%;
         display: flex;
         align-items: center;
         flex-wrap: nowrap;
         height: 150px;
+        border-bottom: 2px solid #000;
     }
 
     .logo {
@@ -123,7 +125,7 @@
         margin: 0 0 0 25px;
         text-decoration: none;
         font-size: 30px;
-        color: #e3e3e3;
+        color: #000;
     }
 
     [aria-current] {
@@ -137,7 +139,7 @@
         width: 100%;
         height: 2px;
         border-radius: 1px;
-        background-color: #e3e3e3;
+        background-color: #000;
         display: block;
         bottom: -1px;
     }
@@ -146,7 +148,7 @@
         nav {
             position: absolute;
             width: 100vw;
-            top: 150px;
+            top: 152px;
             left: 0;
         }
 
@@ -167,7 +169,7 @@
 
         nav.is-active > ul {
             display: block !important;
-            background-color: #333333;
+            background-color: #00afdf;
         }
 
         nav > ul > li {
