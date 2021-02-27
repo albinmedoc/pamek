@@ -28,6 +28,9 @@
 </div>
 
 <section id="partners">
+    <a class="partner" href="http://pmmab.se">
+        <img src="/images/partners/PMMAB.png" alt="PlanMan Malmö AB">
+    </a>
     <a class="partner" href="http://adebbyggkonsulter.se">
         <img src="/images/partners/ADEB.png" alt="ADEB">
     </a>
