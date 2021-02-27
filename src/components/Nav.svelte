@@ -113,13 +113,13 @@
         text-align: center;
     }
 
-    nav > ul > li {
+    /* nav > ul > li {
         display: none;
     }
 
     nav > ul > li:nth-child(-n + 4) {
         display: block;
-    }
+    } */
 
     nav > ul > li > a {
         margin: 0 0 0 25px;
@@ -144,7 +144,7 @@
         bottom: -1px;
     }
 
-    @media (max-width: 1170px) {
+    @media (max-width: 1350px) {
         nav {
             position: absolute;
             width: 100vw;
