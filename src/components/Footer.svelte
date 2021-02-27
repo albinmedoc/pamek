@@ -15,6 +15,20 @@
         color: #000;
         text-decoration: none;
     }
+
+    #creator {
+        text-align: left;
+        margin: 0;
+    }
+    #creator > a {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 850px) {
+        #creator {
+            text-align: center;
+        }
+    }
 </style>
 
 <footer>
@@ -26,4 +40,5 @@
     <p>Trelleborgsvägen 7 | 245 91 Staffanstorp</p>
     <p><a href="tel:+46703774603">+46 703 77 46 03</a></p>
     <p><a href="mailto:info@pamek.nu">info@pamek.nu</a></p>
+    <p id="creator">Hemsidan är skapad av <a href="http://www.albinmedoc.se">Albin Médoc</a></p>
 </footer>
