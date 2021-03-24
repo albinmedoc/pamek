@@ -25,7 +25,7 @@
 
     #persons > div {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         column-gap: 10%;
     }
 
@@ -37,6 +37,7 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+        text-align: center;
     }
 
     @media (max-width: 930px) {
@@ -96,6 +97,15 @@
                         <p><strong>Filip Takkula</strong></p>
                         <p><a href="tel:+46760472835">+46 760 47 28 35</a></p>
                         <p><a href="mailto:filip@pamek.nu">filip@pamek.nu</a></p>
+                    </span>
+                </div>
+            </section>
+            <section class="person">
+                <div>
+                    <span>
+                        <p><strong>Christian Holmkvist</strong></p>
+                        <p><a href="tel:+46708650322">+46 708 65 03 22</a></p>
+                        <p><a href="mailto:crille@pamek.nu">crille@pamek.nu</a></p>
                     </span>
                 </div>
             </section>
