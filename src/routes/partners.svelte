@@ -40,4 +40,7 @@
     <a class="partner" href="http://www.nexabygg.se/">
         <img src="/images/partners/NEXA.svg" alt="NEXA Bygg">
     </a>
+    <a class="partner" href="https://gunnarssonkakel.se/">
+        <img src="/images/partners/GunnarssonsKakel.png" alt="Gunnarssons Kakel AB">
+    </a>
 </section>
