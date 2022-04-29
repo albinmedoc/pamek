@@ -1,7 +1,3 @@
-<script>
-    import Form from '../../components/kontakt/form.svelte';
-</script>
-
 <style>
     h3 {
         font-size: 30px;
@@ -76,8 +72,6 @@
             <li><p><a href="mailto:info@pamek.nu">info@pamek.nu</a></p></li>
         </ul>
     </div>
-
-    <Form />
 
     <div id="persons">
         <h3>Våra montörer</h3>
