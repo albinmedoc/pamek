@@ -67,8 +67,8 @@
         <strong>Information</strong>
         <ul>
             <li><p>PAMEK AB</p></li>
-            <li><p>Trelleborgsvägen 7 | 245 91 Staffanstorp</p></li>
-            <li><p><a href="tel:+46703774603">+46 703 77 46 03</a></p></li>
+            <li><p>Satellitvägen 7 | 245 34 Staffanstorp</p></li>
+            <li><p><a href="tel:+465403400">046-540 34 00</a></p></li>
             <li><p><a href="mailto:info@pamek.nu">info@pamek.nu</a></p></li>
         </ul>
     </div>
@@ -100,6 +100,24 @@
                         <p><strong>Christian Holmkvist</strong></p>
                         <p><a href="tel:+46708650322">+46 708 65 03 22</a></p>
                         <p><a href="mailto:crille@pamek.nu">crille@pamek.nu</a></p>
+                    </span>
+                </div>
+            </section>
+            <section class="person">
+                <div>
+                    <span>
+                        <p><strong>Andrée Stuxgren</strong></p>
+                        <p><a href="tel:+46708650330">+46 708 65 03 30</a></p>
+                        <p><a href="mailto:andre@pamek.nu">andre@pamek.nu</a></p>
+                    </span>
+                </div>
+            </section>
+            <section class="person">
+                <div>
+                    <span>
+                        <p><strong>Lucas Persson</strong></p>
+                        <p><a href="tel:+46768668737">+46 768 66 87 37</a></p>
+                        <p><a href="mailto:lucas@pamek.nu">lucas@pamek.nu</a></p>
                     </span>
                 </div>
             </section>
