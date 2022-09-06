@@ -148,7 +148,7 @@
         nav {
             position: absolute;
             width: 100vw;
-            top: 152px;
+            top: 217px;
             left: 0;
         }
 
