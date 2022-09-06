@@ -121,6 +121,15 @@
                     </span>
                 </div>
             </section>
+            <section class="person">
+                <div>
+                    <span>
+                        <p><strong>Semir Zejnelagic</strong></p>
+                        <p><a href="tel:+46708650300">+46 708 65 03 00</a></p>
+                        <p><a href="mailto:semir@pamek.nu">semir@pamek.nu</a></p>
+                    </span>
+                </div>
+            </section>
         </div>
     </div>
 </div>
