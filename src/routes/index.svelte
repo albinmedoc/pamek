@@ -123,14 +123,14 @@
 <section id="om-oss" class="container">
     <h3>Om Pamek VVS</h3>
     <p>
-        Pamek AB är det lilla vvs företaget men med lång erfarenhet av vatten
+        Pamek AB är det lilla vvs företaget men med lång erfarenhet av vatten,
         värme och sanitet. Företaget utgår från Staffanstorp men arbetsområdet
         täcker hela Skåne.
     </p>
     <p>
         Pamek hjälper er med allt från de små reparationerna till dem större
         ombyggnaderna. Vi har samarbetspartners som hjälper till med el, bygg,
-        kakel och klinkers och mycket mer.
+        kakel, klinkers och mycket mer.
     </p>
     <p>Pamek AB startade 2018 och under åren har vi skaffat flera <a href="partners">samarbetspartners</a>.</p>
 </section>
