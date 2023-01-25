@@ -34,9 +34,6 @@
     <a class="partner" href="http://adebbyggkonsulter.se">
         <img src="/images/partners/ADEB.png" alt="ADEB">
     </a>
-    <a class="partner" href="http://www.lundskakeltjanst.se/">
-        <img src="/images/partners/LK.png" alt="Lunds Kakeltjänst">
-    </a>
     <a class="partner" href="http://www.nexabygg.se/">
         <img src="/images/partners/NEXA.svg" alt="NEXA Bygg">
     </a>
