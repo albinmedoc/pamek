@@ -28,16 +28,16 @@
 </div>
 
 <section id="partners">
+    <a class="partner" href="https://gunnarssonkakel.se/">
+        <img src="/images/partners/GunnarssonsKakel.png" alt="Gunnarssons Kakel AB">
+    </a>
     <a class="partner" href="http://pmmab.se">
         <img src="/images/partners/PMMAB.png" alt="PlanMan Malmö AB">
-    </a>
-    <a class="partner" href="http://adebbyggkonsulter.se">
-        <img src="/images/partners/ADEB.png" alt="ADEB">
     </a>
     <a class="partner" href="http://www.nexabygg.se/">
         <img src="/images/partners/NEXA.svg" alt="NEXA Bygg">
     </a>
-    <a class="partner" href="https://gunnarssonkakel.se/">
-        <img src="/images/partners/GunnarssonsKakel.png" alt="Gunnarssons Kakel AB">
+    <a class="partner" href="http://adebbyggkonsulter.se">
+        <img src="/images/partners/ADEB.png" alt="ADEB">
     </a>
 </section>
