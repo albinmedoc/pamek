@@ -130,6 +130,15 @@
                     </span>
                 </div>
             </section>
+            <section class="person">
+                <div>
+                    <span>
+                        <p><strong>Peter Elsass</strong></p>
+                        <p><a href="tel:+46708650023">+46 708 65 00 23</a></p>
+                        <p><a href="mailto:peter@pamek.nu">peter@pamek.nu</a></p>
+                    </span>
+                </div>
+            </section>
         </div>
     </div>
 </div>
