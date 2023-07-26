@@ -123,12 +123,12 @@
 <section id="om-oss" class="container">
     <h3>Om Pamek VVS</h3>
     <p>
-        Pamek AB är det lilla vvs företaget men med lång erfarenhet av vatten,
+        Pamek AB är det lilla vvs-företaget men med lång erfarenhet av vatten,
         värme och sanitet. Företaget utgår från Staffanstorp men arbetsområdet
         täcker hela Skåne.
     </p>
     <p>
-        Pamek hjälper er med allt från de små reparationerna till dem större
+        Pamek hjälper er med allt från de små reparationerna till de större
         ombyggnaderna. Vi har samarbetspartners som hjälper till med el, bygg,
         kakel, klinkers och mycket mer.
     </p>
@@ -152,7 +152,7 @@
                 <ShieldHalfFull />Entreprenader
             </h4>
             <p>
-                Vi utför stambyte i flerbostadshus samt mindre ny produktioner.
+                Vi utför stambyte i flerbostadshus samt mindre nyproduktioner.
             </p>
         </section>
         <section class="service">
@@ -169,9 +169,9 @@
                 <ShieldHalfFull />Badrum
             </h4>
             <p>
-                Vi tar hand om din badrums renovering från start till mål. Med
-                våra samarbetspartners kan vi se till så du får ett nyckel
-                färdigt badrum med bara kontakt med ett företag.
+                Vi tar hand om din badrumsrenovering från start till mål. Med
+                våra samarbetspartners kan vi se till så du får ett komplett
+                badrum med bara kontakt med ett företag.
             </p>
         </section>
     </div>
