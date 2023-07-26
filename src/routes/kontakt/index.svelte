@@ -73,6 +73,7 @@
         </ul>
     </div>
 
+<!--
     <div id="persons">
         <h3>Våra montörer</h3>
         <div>
@@ -141,4 +142,5 @@
             </section>
         </div>
     </div>
+    -->
 </div>
