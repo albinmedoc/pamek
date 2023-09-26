@@ -61,7 +61,7 @@
         </p>
         <p>
             Önskar du en gratis offert? Tveka inte att kontakta oss för att boka
-            ett hembesök. Det är kostnadsfritt och utan krav på beställning
+            ett hembesök. Det är kostnadsfritt och utan krav på beställning.
         </p>
         <br />
         <strong>Information</strong>
