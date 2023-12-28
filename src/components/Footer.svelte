@@ -38,7 +38,7 @@
         alt="The Coffee Lounge"
         title="Pamek VVS" />
     <p>Satellitvägen 7 | 245 34 Staffanstorp</p>
-    <p><a href="tel:+465403400">046-540 34 00</a></p>
+    <p><a href="tel:+46465403400">046-540 34 00</a></p>
     <p><a href="mailto:info@pamek.nu">info@pamek.nu</a></p>
     <p id="creator">Hemsidan är skapad av <a href="http://www.albinmedoc.se">Albin Médoc</a></p>
 </footer>

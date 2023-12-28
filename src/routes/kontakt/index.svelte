@@ -68,7 +68,7 @@
         <ul>
             <li><p>PAMEK AB</p></li>
             <li><p>Satellitvägen 7 | 245 34 Staffanstorp</p></li>
-            <li><p><a href="tel:+465403400">046-540 34 00</a></p></li>
+            <li><p><a href="tel:+46465403400">046-540 34 00</a></p></li>
             <li><p><a href="mailto:info@pamek.nu">info@pamek.nu</a></p></li>
         </ul>
     </div>
